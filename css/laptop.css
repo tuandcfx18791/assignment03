@@ -1,0 +1,362 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: rgb(40, 40, 40);
+}
+.bg-grey {
+  background-color: #f7f7f7;
+  /* margin-left: 20px; */
+}
+section > .container {
+  /* width: 1200px; */
+  margin: 0 auto;
+  padding: 80px 0px;
+  /* display: block; */
+}
+#nav-bar {
+  text-align: center;
+}
+/*------------------------- 1.BANNER ------------------------*/
+.banner-img {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/banner.jpg);
+  background-size: cover;
+}
+.banner-content {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.banner-content h1 {
+  text-transform: uppercase;
+}
+.banner-content span {
+  color: #dee2e6;
+}
+/* -------------Navbar------------- */
+.navbar-container a {
+  /* color: rgb(40, 40, 40); */
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 20px 10px;
+}
+.navbar-container a:hover,
+.navbar-container a:active {
+  font-weight: bold;
+  color: rgb(0, 140, 255);
+}
+.nav-icon {
+  color: rgb(0, 140, 255);
+}
+.navbar-info {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.navbar-container {
+  border-bottom: 1px solid rgb(197, 197, 197);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 0 !important;
+  position: relative;
+}
+/* ----------------3.INFO --------------------*/
+#target {
+  background-color: #f7f7f7;
+}
+#personal-info {
+  background-color: #f1f3f5;
+}
+.mt-40 {
+  list-style: none;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+/*-------------------------------------- 4.JOB INFO----------------------------- */
+
+.grid-box1 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 70px 1fr;
+  border: 1px solid rgb(197, 197, 197);
+  padding: 50px 30px 30px 30px;
+}
+.grid-box1 h1 {
+  margin: 20px 0;
+}
+.job-content {
+  grid-column: 1/-1;
+}
+.job-content h3 {
+  margin-top: 50px;
+  align-items: flex-start;
+}
+/* -----KINH NGHIEM, HOC VAN, HOAT DONG----- */
+.time-job {
+  font-style: italic;
+}
+.detail-job {
+  margin-top: 20px;
+}
+.job-content span {
+  color: #fff;
+  padding: 2px 10px;
+  background-color: rgb(0, 128, 255);
+  border-radius: 5px;
+}
+.name-job {
+  position: relative;
+  padding-left: 20px;
+}
+.name-job::before {
+  content: "•";
+  color: rgb(0, 128, 255);
+  font-size: 35px;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  left: 0;
+}
+
+/*------------------------------SO THICH------------------------------*/
+.icons-fav {
+  display: inline-block;
+  font-size: 24px;
+  width: 75px;
+  color: rgb(0, 140, 255);
+  border: 1px solid rgb(0, 140, 255);
+  padding: 15px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.items-interest {
+  text-align: center;
+}
+.box-interest {
+  grid-column: 1 /-1;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+/* --------------------------KY NANG, NGON NGU --------------------------*/
+.box-lang {
+  grid-column: 1/-1;
+  margin-top: 50px;
+}
+.levels1 {
+  background: #199cdb;
+  height: 4px;
+  width: 45px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.levels {
+  background: #b0b0b0;
+  height: 4px;
+  width: 45px;
+  margin-right: 10px;
+  display: inline-block;
+}
+/* CHUNG CHI,GIAI THUONG */
+
+.items-certificate p {
+  font-weight: bold;
+  padding: 5px 0;
+  margin: 0;
+}
+.items-certificate {
+  margin: 50px 0;
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* ------------DU AN---------------- */
+.text-icon {
+  display: inline-block;
+  font-style: normal;
+}
+.pro-item2,
+.pro-item3 {
+  padding: 10px;
+  border: 1px solid rgb(166, 166, 166);
+}
+.pro-item3 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.pro-item3 span {
+  color: #fff;
+  padding: 2px 5px;
+  background-color: #199cdb;
+  border-radius: 20px;
+  text-align: center;
+}
+.table-box {
+  border-collapse: collapse;
+  border: 1px solid #b0b0b0;
+}
+.pro-item4,
+.pro-item5,
+.pro-item6 {
+  vertical-align: top;
+  line-height: 1.5;
+}
+/* .pro-item4 {
+  height: 340px;
+} */
+.colum1 {
+  border-bottom: 1px solid #b0b0b0;
+  width: 100px;
+  padding: 10px;
+}
+.colum2 {
+  border-bottom: 1px solid #b0b0b0;
+  padding: 10px;
+}
+.btn-cv {
+  text-align: center;
+  margin-bottom: 100px;
+}
+/* ---------------------------------FOOTER---------------------------------*/
+.box-footer {
+  list-style-type: none;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+}
+.box-footer li {
+  display: flex;
+  align-items: center;
+}
+.icon-footer {
+  font-size: 250%;
+  color: #199cdb;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------  */
+/* --------------------------------REPONSIVE LAPTOP--------------------------- */
+@media (min-width: 1200px) {
+  /* -----------------2.Navbar laptop------------------- */
+  .navbar-container a {
+    border-left: 1px solid rgb(197, 197, 197);
+  }
+  /* -----------------3.INFO laptop---------------------*/
+  #target,
+  #personal-info {
+    padding: 70px;
+  }
+
+  /*------------------------------- 4.JOB INFO laptop------------------------ */
+
+  /* --------------------7.CHUNG CHI, GIAI THUONG laptop-------------------------*/
+
+  .items-certificate {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #d6c08d;
+  }
+  .items2_a {
+    padding-left: 20px;
+    border-left: 2px solid #d6c08d;
+  }
+  .items2_b {
+    border: none !important;
+    padding-right: 30px;
+  }
+
+  .items3 {
+    border: none !important;
+  }
+
+  /* -------------------------------DU AN laptop----------------------------------- */
+
+  /*  */
+  /*  */
+  /* ----------------------------Digital-CV laptop---------------------------- */
+  .goal-list {
+    padding: 0 30px;
+    margin-bottom: 30px;
+  }
+  .goal-icons {
+    width: 10%;
+  }
+  .goal-list {
+    border-bottom: 1px solid #199cdb;
+  }
+  /* ---------------Team-------- */
+  .team-icons {
+    width: 12%;
+  }
+  .team-list {
+    margin: 10px 0 30px 0;
+  }
+  /* --------------Primary------------- */
+  .primary-icons {
+    width: 50%;
+  }
+  .primary-list {
+    align-items: flex-start;
+  }
+}
+/*  ------------------------------------------------------------------- */
+/* ----------------------------Digital-CV---------------------------- */
+
+header {
+  font-weight: bold;
+  color: rgb(0, 0, 193);
+  font-size: 32px;
+  border-bottom: 1px solid #444;
+  margin-bottom: 20px;
+}
+.time-line-col,
+.team-col,
+.goal-col,
+.scopes-col,
+.primary-col {
+  padding: 20px 20px 50px 20px;
+  border: 10px solid rgb(0, 0, 193);
+  border-collapse: collapse;
+  background-color: #e9f6ff;
+}
+/* timeline */
+.time-line-col .number-timeline {
+  color: #fff;
+  display: inline-block;
+  align-self: center;
+  font-size: 18px;
+  padding: 10px;
+  background-color: rgb(156, 160, 242);
+  border-radius: 50%;
+  border: 2px solid #444;
+}
+.timeline-items {
+  border-bottom: 1px dashed #199cdb;
+  margin-top: 10px;
+}
+/* goal */
+.goal-list {
+  border-bottom: 1px solid #199cdb;
+}

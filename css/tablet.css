@@ -1,0 +1,100 @@
+@media (min-width: 768px) and (max-width: 1200px) {
+  /* NAVBAR */
+  .navbar-info {
+    display: none;
+  }
+  /* INFO */
+  #target,
+  #personal-info {
+    font-size: 14px;
+    padding: 50px 20px;
+  }
+  /* JOB INFO */
+  .icons-fav {
+    font-size: 16px;
+    width: 55px;
+    padding: 15px;
+  }
+  .grid-box1 h1 {
+    font-size: 26px;
+  }
+  .grid-box1 h3 {
+    font-size: 18px;
+  }
+  /* CHUNG CHI */
+  .items-certificate {
+    font-size: 12px;
+    line-height: 2;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #d6c08d;
+  }
+  .items2_a {
+    padding-left: 10px;
+    border-left: 2px solid #d6c08d;
+  }
+  .items2_b {
+    padding-left: 10px;
+    border-left: 2px solid #d6c08d;
+  }
+  .items3 {
+    border: none !important;
+  }
+  /* DU AN */
+  .colum1 {
+    width: 20%;
+  }
+  .pro-item3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 0px;
+    column-gap: 20px;
+    align-items: center;
+  }
+  .pro-item3 span {
+    justify-self: center;
+  }
+  .detail-dev {
+    grid-column: 2/3;
+  }
+  /* ---------------------------digital-cv ------------------ */
+  /* ---------------GOAL-------- */
+  .goal-icons {
+    display: block;
+    width: 5%;
+    margin: 10px auto;
+  }
+  .goal-list {
+    border-bottom: 1px solid #199cdb;
+    margin: 50px 20px;
+  }
+  /* ---------------Team-------- */
+  .team-icons {
+    display: block;
+    margin: 10px auto;
+    width: 5%;
+  }
+  .team-list {
+    margin: 50px 20px;
+  }
+  /* scopes */
+  .scopes-items {
+    margin: 50px 20px;
+  }
+  /* --------------Primary------------- */
+  .primary-icons {
+    display: block;
+    margin: 10px auto;
+    width: 5%;
+  }
+  .primary-list {
+    margin: 50px 20px;
+  }
+  /* timeline */
+  .timeline-items {
+    margin: 10px 20px;
+  }
+  .time-line-col {
+    margin-left: 0;
+  }
+  /* --------------- */
+}
